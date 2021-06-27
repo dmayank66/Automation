@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.*;
 
 public class LoginDemo {
-
+// We are using cucumber
 	WebDriver driver = null;
 
 	@SuppressWarnings("deprecation")
@@ -51,5 +51,6 @@ public class LoginDemo {
         Thread.sleep(2000);
         driver.close();
         driver.quit();
+        //cucumber is used
 	}
 }
